@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Focused</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="focusedInput" value="This is focused...">
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="inputpassword" class="col-sm-2 control-label"> Disabled </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="disableInput" placeholder="Disabled input here ..." disabled="">  
+                </div>
+
+            </div>
+
+            <fieldset disabled="">
+
+                <div class="form-group">
+                    <label for="disableTextInput" class="col-sm-2 control-label"> Disabled input (fieldset disable)</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="disableTextInput" placeholder="Disabled input" disabled="">  
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="disableSelect" class="col-sm-2 control-label"> Disabled select menu (fieldset disable)</label>
+                    <div class="col-sm-10">
+                        <select  class="form-control" id="disableTextInput">
+                            <option>Disable select</option>
+                        </select> 
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="from-group has-success">
+                <label id="inputSuccess" class="col-sm-2 control-label"> Input with success</label>  
+
+                <div class="col-sm-10">
+                    <input type="text" id="inputSuccess" class="form-control"> 
+                </div>
+            </div>
+
+
+
+        </form>
+    </body>
+</html>
